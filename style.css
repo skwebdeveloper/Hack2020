@@ -1,0 +1,159 @@
+* {
+    box-sizing: border-box;
+}
+html,body{
+    width:100%;
+  }
+ 
+/* This is for hi   */
+.hi{
+    text-decoration: none;
+    color: white;
+}
+/* This is for content */
+.content {
+    position: absolute;
+    color: #f1f1f1;
+    width: 100%;
+    padding:0px;
+    margin-top:2px;
+}
+/* This is for container */
+.container{
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    margin-top:5%;
+    width: 350px;
+    background:rgba(255,255,255,0.85);
+}
+/* This is for input our data */
+input[type=text],input[type="email"],input[type="password"],input[type="number"]{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    color:black;
+    resize: vertical;
+}
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+    font-size:16px;
+    color:black;
+}
+/* This is for our video part */
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+}
+/* This is related for medicine */
+.button{
+    background-color:#4cae4c;
+    width:100%;
+    height:100%;
+    border: none;
+    color: white;
+    padding:12px;
+    text-decoration: none;
+    margin:3px;
+    cursor: pointer;
+    border-radius:5px;
+}
+/* This is for form */
+form{ 
+    width:100%;
+    height:100%;
+    padding:16px 32px;  
+  } 
+/* This is for icons   */
+.fas{
+    font-size:20px;
+    margin-left:7px;
+    margin-top:20px;
+    color:#405f73;
+    width: 2.4rem;
+    height: 3.4rem;
+    left: 0; 
+  }
+h1{
+    font-size:40px;
+    color:black;
+  }
+/* This is for mobile   */
+.col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+}
+.col-75 {
+    float: right;
+    width: 75%;
+    margin-top: 6px;
+}
+/* This is for hr line styling */
+hr{ 
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 0.55px;
+}
+/* From here our main button decoration has started */
+
+
+/* This is for facebook */
+.button1{
+    background-color:#1f4f82;;
+  }
+.button1 .fab{
+    float:left;
+    text-align:center;
+  }
+
+/* This is for google   */
+.button2{
+    background-color:#dc143c;
+  }
+.button2 .fab{
+    float:left;
+    text-align:center;
+  }
+
+/* This is for twitter   */
+.button3{
+    background-color:#009eed;
+  }
+.button3 .fab{
+    float:left;
+    text-align:center;
+  }
+
+/* This is for linkedln */
+  .button4{
+    background-color:#0084b4;
+  }
+.button4 .fab{
+    float:left;
+    text-align:center;
+  }
+/* This contain all the decoration of all the buttons*/
+.combine{
+    width:20%;
+    height:100%;
+    border: none;
+    color: white;
+    padding:18px;
+    text-decoration: none;
+    margin:3px;
+    cursor: pointer;
+    text-align:center;
+    border-radius:5px;    
+}  
+.onetwo{
+   color:white;
+  }
