@@ -1,0 +1,418 @@
+html, body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+body{
+font-family: 'Bai Jamjuree', sans-serif;
+line-height: 1.8;
+background-color:white;
+}
+/* This contain the main jumbotron part */
+.jumbotron {
+    color: #fff;
+    padding: 100px 25px;
+    text-align:center;
+    font-size:3vw;
+    font-family: 'Bai Jamjuree', sans-serif;
+    }
+/* This contain the main part of navigation part */
+.navbar {
+  margin-bottom: 0;
+  background: #FDC830;
+  background: -webkit-linear-gradient(to right, #F37335, #FDC830);  
+  background: linear-gradient(to right, #F37335, #FDC830);
+  z-index: 9999;
+  border: 0;
+  font-size: 12px !important;
+  letter-spacing: 3px;
+  border-radius: 0;
+  font-family: Montserrat, sans-serif;
+}
+.navbar li a, .navbar .navbar-brand {
+  color: #fff !important;
+  margin-top:10px;
+}
+.navbar-nav li a:hover, .navbar-nav li.active a {
+  color: #f4511e !important;
+  background-color: #fff !important;
+ margin-top:10px;
+}
+.navbar-default .navbar-toggle {
+  border-color: transparent;
+  color: #fff !important;
+}
+.navbar-brand{
+font-size:20px;
+font-family: 'Bai Jamjuree', sans-serif;
+margin:3px;
+padding:10px 6px;
+}
+.nav{
+font-size:15px;
+font-weight:900px;
+}
+/* This contain the main container-fluid */
+.container-fluid{
+background: #FDC830;
+background: -webkit-linear-gradient(to right, #F37335, #FDC830); 
+background: linear-gradient(to right, #F37335, #FDC830);
+    color:white;
+} 
+/* Editing of li */
+.li{
+margin:5px;
+padding-left:250px;
+}
+.lovebar{
+    box-shadow: 0px 5px 10px rgba(0,0,0,.5);
+    background-color:#262626;     
+}
+.hell{
+color:black;
+}
+
+/*EDITING FOR SEARCHING*/
+h1{
+text-align: center;
+font-size: 6vw;
+text-shadow:0px 1px 2px rgba(0,0,0,.5);
+font-family: 'Bai Jamjuree', sans-serif;
+font-weight:700;
+}
+h2{
+font-family: 'Bai Jamjuree', sans-serif;
+letter-spacing:1px;
+}
+p{
+letter-spacing:2px;
+line-spacing:150%;
+}
+h3{
+font-family: 'Bai Jamjuree', sans-serif;
+line-height:1.375em;
+color:#303030;
+margin-bottom:30px;
+}
+
+/*EDITING FOR FORM*/                               
+
+input[type=text]{
+width: 100%;
+padding: 12px 20px;
+margin:5px 2px;
+display: inline-block;
+border: 1px solid #ccc;
+border-radius: 4px;
+box-sizing: border-box;
+}
+.jokey{
+ font-size:16px;
+}
+
+/*BUTTON EDITING*/
+                                
+.btn-success{
+width:100%;
+}
+.btn-success:hover{
+box-shadow:8px 6px 16px rgba(0,0,0,.5);
+cursor:pointer;
+}
+.btn-information{
+margin:5px 2px;
+}
+/*FOR IMAGE GALERY AND JUMBOTRON*/
+.obey{
+float:right;
+border:1px solid;
+color:white;
+border-radius: 10px;
+background: green;
+padding:5px;
+width:100%;
+}
+.fas{
+color:#f4511e;
+font-size:100px;
+margin:30px;
+}    
+.fab{
+color:#f4511e;
+font-size:150px;
+margin-left:30px;
+}
+.far{
+color:#f4511e;
+font-size:150px;
+margin-left:30px;
+}
+.glyphicon-qrcode{
+font-size:54px;
+}
+.glyphicon-qrcode:hover{
+box-shadow:2px 4px 8px rgba(0,0,0,.5);
+}
+
+/*log-in*/
+.decor{
+background-color:green;
+border:none;
+text-align:center;
+color:white;
+border-radius:15px;
+cursor:pointer;
+}
+
+/*Button*/
+button{
+background-color:green;
+border:none;
+color:white;
+border-radius:10px;
+}
+/* Parallax Effect */
+
+.Makingshort{
+background-image:fixed; 
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;  
+}
+
+
+.parallax20{
+background-image:url("https://images.unsplash.com/photo-1542736667-069246bdbc6d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1951&q=80");
+min-height: 500px;
+}
+.parallax2{
+background-image:url("https://images.pexels.com/photos/139398/thermometer-headache-pain-pills-139398.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
+min-height: 500px;
+}
+.parallax3{
+background-image:url("https://images.unsplash.com/photo-1520931674431-de5b4b2cc562?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=cf892a06a8141d8d0823c4b4c6cce613&auto=format&fit=crop&w=1950&q=80");
+min-height: 700px;
+}
+.parallax4{
+background-image:url("https://images.unsplash.com/photo-1520931674431-de5b4b2cc562?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=cf892a06a8141d8d0823c4b4c6cce613&auto=format&fit=crop&w=1950&q=80");
+min-height: 800px;
+}
+.parallax5{
+background-image:url("https://images.unsplash.com/photo-1512428559087-560fa5ceab42?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=665f85219b6ad4ee4b274871593f3394&auto=format&fit=crop&w=1950&q=80"); 
+min-height: 500px;
+
+}
+/* This is for small block */
+.test h5{
+width: 300px;
+background-color:rgba(0,0,0,0.6);
+color:#fff;
+display:inline;
+padding:20px;
+top:950px;
+text-transform:uppercase;
+left:20px;
+font-weight:900px;
+letter-spacing:2px;
+position:absolute;
+font-size:50px;
+}
+
+/* This contain the AIIMS and COSMOS panel */
+.panel-default:hover{
+box-shadow:2px 4px 8px rgba(0,0,0,.5);
+}
+#appoint{
+background-color:#eee;
+margin-top:-200px;
+margin-bottom:-30px;
+
+}
+/* This contain the Dr.Suggestion */
+#online{
+margin-bottom:-10px;
+}
+.slideanim {visibility:hidden;}
+.slide {
+animation-name: slide;
+-webkit-animation-name: slide; 
+animation-duration: 1s; 
+-webkit-animation-duration: 1s;
+visibility: visible; 
+}
+
+/* Go from 0% to 100% opacity (see-through) and specify the percentage from when to slide in the element along the Y-axis */
+@keyframes slide {
+0% {
+    opacity: 0;
+    transform: translateY(70%);
+} 
+100% {
+    opacity: 1;
+    transform: translateY(0%);
+} 
+}
+/*All about different medicines*/ 
+.different{
+margin-top:-200px;
+margin-left:0;
+margin-right:0; 
+margin-bottom:150px; 
+text-align:center;
+background: #FDC830;
+background: -webkit-linear-gradient(to right, #F37335, #FDC830); 
+background: linear-gradient(to right, #F37335, #FDC830);
+}
+/* For particular disease */
+.about{
+  width:80%;
+  background-color:#f4511e;
+  height:200px;
+  border:none;
+  margin:10px;
+  padding:10px 20px;
+  font-size:40px;
+  text-align:center;
+  border-radius:100px 50px 90px 50px;
+  box-shadow:0px 1px 3px rgba(0,0,0,.5);
+  color:white;
+  transition:0.5s;
+}
+/* On hovering */
+.about:hover{
+width:80%;
+heigth:200px;
+background-color:rgb(0,0,0);
+color:white;
+opacity:0.5;
+border-radius:50px 50px 50px 50px;
+}
+.about .back{
+ position:absolute;
+ width:100%;
+ heigth:60%;
+ bottom:0;
+ padding:20px;
+ box-sizing:border-box;
+ text-align:center;
+}
+@-webkit-keyframes slide {
+0% {
+    opacity: 0;
+    -webkit-transform: translateY(70%);
+} 
+100% {
+    opacity: 1;
+    -webkit-transform: translateY(0%);
+}
+}
+
+.about .content{
+position:absolute;
+width:100%;
+height:60%;
+bottom:-100%;
+padding:20px;
+box-sizing:border-box;
+text-align:center;
+transition:0.5s;
+}
+.about:hover .content{
+bottom:0; 
+}
+
+@-webkit-keyframes slide {
+0% {
+    opacity: 0;
+    -webkit-transform: translateY(70%);
+} 
+100% {
+    opacity: 1;
+    -webkit-transform: translateY(0%);
+}
+}
+
+/*------------------------------Slideshow-------------------*/  
+.carousel-inner{
+margin-top:0;
+text-align:center;
+margin-bottom:-5%;
+}
+.item{
+margin-top:0;
+margin-bottom:500px;
+text-align:center;
+}
+.item h4 {
+font-size: 19px;
+  line-height: 1.375em;
+  font-weight: 400;
+  font-style: italic;
+  margin:20px 0;
+}
+.item span {
+  font-style: normal;
+}
+
+/*Modal box contain both for Language and Disease*/  
+.modal{
+text-align:center;
+padding:0;
+}
+.modal-dialog{
+ cursor:pointer;
+ font-size:30px;
+ margin-top:20px;
+ margin-left:0px;
+ text-align:left;
+ vertical-align:middle;
+ background-color:white;
+ display:inline-block;
+}
+.modal-heading{
+ margin-left:15px;
+}
+.modal-body{
+ margin-left:10px;
+ text-align:left;
+}
+.btn-danger{
+font-size:16px;
+margin-left:20px;  
+}
+.modal:before{
+content:'';
+display:inline-block;
+vertical-align:middle;
+margin-right:4px;
+}
+ /*Modal decoration*/
+
+.modal-header{
+    margin:40px;
+    padding: 16px 32px;
+}    
+
+h2{
+    margin: 40px;
+    font-size: 50px;
+    color: black;
+}
+.ForNav{
+background: #FDC830;
+background: -webkit-linear-gradient(to right, #F37335, #FDC830);
+background: linear-gradient(to right, #F37335, #FDC830);
+}
+                          /*All about languages*/
+.language{
+font-size:25px;
+font-weight:900px;
+width:100%;
+height:100%;
+}
+/*Table decoration*/
+tr,td,th{
+ color: black;
+}
+
